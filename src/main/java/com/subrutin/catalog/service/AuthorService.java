@@ -1,9 +1,9 @@
 package com.subrutin.catalog.service;
 
-import com.subrutin.catalog.dto.AuthorRepositoryDTO;
+import com.subrutin.catalog.dto.AuthorResponseDTO;
 
 public interface AuthorService {
 
-    public AuthorRepositoryDTO findAuthorById(Long id);
+    public AuthorResponseDTO findAuthorById(Long id);
 
 }
